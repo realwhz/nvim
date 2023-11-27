@@ -71,5 +71,10 @@ autocmd BufReadPost *
   \   exe "normal! g`\"" |
   \ endif
 
+call plug#begin()
+Plug 'jremmen/vim-ripgrep'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neovim/nvim-lspconfig'
+call plug#end()
 
 lua require('lsp')
