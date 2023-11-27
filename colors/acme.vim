@@ -159,7 +159,7 @@ exe "hi! VertSplit"     ." guifg=".s:W5    ." ctermfg=".s:WC5    ." guibg=".s:C1
 exe "hi! Folded"        ." guifg=".s:Y3    ." ctermfg=".s:YC3
 exe "hi! FoldColumn"    ." guifg=".s:Y2    ." ctermfg=".s:YC2    ." guibg=".s:Y1    ." ctermbg=".s:YC1
 exe "hi! TabLineSel"    ." guifg=".s:W1    ." ctermfg=".s:WC1    ." guibg=".s:M3    ." ctermbg=".s:MC3
-exe "hi! Comment"       ." guifg=".s:W4    ." ctermfg=".s:WC4    ." guibg=".s:W1    ." ctermbg=".s:WC1
+exe "hi! Comment"       ." guifg=".s:W5    ." ctermfg=".s:WC5    ." guibg=".s:W1    ." ctermbg=".s:WC1
 
 exe "hi! Search"        ." guifg=".s:W5    ." ctermfg=".s:WC5    ." guibg=".s:W2    ." ctermbg=".s:WC2
 exe "hi! IncSearch"     ." guifg=".s:W1    ." ctermfg=".s:WC1    ." guibg=".s:M3    ." ctermbg=".s:MC3
