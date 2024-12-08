@@ -37,6 +37,7 @@ vim.opt.list = true                              -- Show non-printable character
 
 vim.opt.listchars = {tab = '▸ ', extends = '❯', precedes = '❮', nbsp = '␣'}
 
+vim.opt.background = 'light'
 vim.cmd('colorscheme acme')
 
 -- The fish shell is not very compatible to other shells and unexpectedly

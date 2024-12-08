@@ -1,9 +1,10 @@
 local Plug = vim.fn['plug#']
 
 vim.call('plug#begin', '~/.config/nvim/plugged')
-Plug 'jremmen/vim-ripgrep'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'neovim/nvim-lspconfig'
+Plug('jremmen/vim-ripgrep')
+Plug('ctrlpvim/ctrlp.vim')
+Plug('neovim/nvim-lspconfig')
+Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
 vim.call('plug#end')
 
 if vim.fn.executable('rg') == 1 then

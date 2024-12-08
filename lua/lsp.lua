@@ -1,6 +1,11 @@
 -- Setup language servers.
 local lspconfig = require('lspconfig')
-lspconfig.clangd.setup{}
+lspconfig.clangd.setup{
+  cmd = {
+        "clangd",
+        "--compile-commands-dir=release_build"
+  }
+}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
